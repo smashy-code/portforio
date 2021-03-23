@@ -1,0 +1,29 @@
+$cWhite: white;
+@import 'modules/reset';
+@import 'modules/mixin';
+@import 'modules/hero-slider';
+
+@import 'breakpoints/base';
+
+@media (max-width: 480px) {
+  @import "breakpoints/480px";
+}
+
+@media (max-width: 600px) {
+  @import "breakpoints/600px";
+}
+
+@media (max-width: 960px) {
+  @import "breakpoints/960px";
+}
+
+@media (max-width: 1280px) {
+  @import "breakpoints/1280px";
+}
+
+@media (min-resolution: 192dpi)
+,(-webkit-min-device-pixel-ratio: 2) {
+  @import "breakpoints/2x";
+}
+
+

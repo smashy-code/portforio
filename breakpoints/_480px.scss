@@ -1,0 +1,64 @@
+/******************************************************************
+
+Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+
+******************************************************************/
+
+.wrapper {
+  width: auto;
+  text-align: center;
+}
+
+.contents > ul {
+  display: none;
+}
+
+.header-list > ul > li > a {
+  display: none;
+}
+
+
+.shop .shop-title {
+  text-align: center;
+}
+
+.product-images {
+  flex-direction: column;
+  align-items: center;
+
+  & .product-img {
+    border: inherit;
+
+    & > a > img {
+      margin: inherit;
+      width: 300px;
+      margin-bottom: 50px;
+    }
+  }
+
+  & .product-img:last-child {
+    border-right: inherit;
+}
+}
+
+.activities {
+  flex-direction: column;
+
+  .activities-content {
+    width: inherit;
+  }
+}
+
+.column {
+  flex-direction: column;
+}
+
+footer > div {
+  & .categorys {
+  display: none;
+  }
+
+  & .footer-bottom  > .footer-text {
+  padding: 10px 0;
+  }
+}

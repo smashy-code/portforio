@@ -1,0 +1,97 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.wrapper {
+    width: auto;
+    text-align: center;
+  }
+  
+  .contents > ul {
+    display: inherit;
+    // padding-bottom: 84px;
+
+    & > #a {
+        background-image: none;
+    }
+    & > #b {
+        background-image: none;
+    }
+    & > #c {
+        background-image: none;
+    }
+    & > #d {
+        background-image: none;
+    }
+    & > #e {
+        background-image: none;
+    }
+    & > #f {
+        background-image: none;
+    }
+
+    & > li {
+        width: auto;
+        text-align: left;
+        border: none;
+        background-color: red;
+        margin: 10px;
+
+        & > a {
+            height: auto;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 52px 0 52px 30px;
+        }
+    }
+    & > li:first-child {
+        border: none;
+    }
+}
+  
+  .shop .shop-title {
+    text-align: center;
+  }
+  
+  .product-images {
+    flex-direction: column;
+    align-items: center;
+  
+    & .product-img {
+      border: inherit;
+  
+      & > a > img {
+        margin: inherit;
+        width: 300px;
+        margin-bottom: 50px;
+      }
+    }
+  
+    & .product-img:last-child {
+      border-right: inherit;
+  }
+  }
+  
+  .activities {
+    flex-direction: column;
+  
+    .activities-content {
+      width: inherit;
+    }
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  footer > div {
+    & .categorys {
+    display: none;
+    }
+  
+    & .footer-bottom  > .footer-text {
+    padding: 10px 0;
+    }
+  }
